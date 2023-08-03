@@ -53,14 +53,11 @@ class Field:
 
 
 class Name(Field):
-    def value(self, value):
-
-        self.value = value
+    pass
 
 
 class Phone(Field):
-    def value(self, value):
-        self.value = value
+    pass
 
 
 if __name__ == '__main__':
